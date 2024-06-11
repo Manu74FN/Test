@@ -82,3 +82,19 @@ print("p" not in "Pepe") # devuelve False ya que evalua si p no está en Pepe
 print(3 > 2 and 7 > 5) #and devuelve True si las dos comparaciones son ciertas
 print(2 > 3 or 7 > 5)  #or devuelve True si alguna de las comparaciones son ciertas
 print(not 3 > 2)       #not devuelve lo contrario del resultado de la comparación
+
+
+#TODO explicar que son las Tuplas y los diccionarios
+
+# Las Tuplas son un conjunto de diferentes tipos de datos ordenados
+# y que una vez creada no se puede modificar. Son inmutables.
+
+mi_tupla = tuple() #Se puede definir usando su constructor
+mi_tupla_dos = ("Pepe", 8, -5)  #Tambien se puede definir con los parentesis
+print(type(mi_tupla_dos))
+
+# Los Diccionarios es un conjunto de datos que se almacenan en pares clave:valor. Es Mutable
+
+diccionario = dict() #Se puede definir usando su constructor
+diccionario_dos = {"Nombre":"Pepe", "Apellido":"Pérez", "Edad":35}
+print(diccionario_dos)
